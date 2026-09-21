@@ -1,0 +1,20 @@
+{
+    "name": "LM Studio Config",
+    "id": "lm-studio-config",
+    "version": "1.0.0",
+    "description": "A feature to config lm studio",
+    "options": {},
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "DanLambiase.lmstudio-copilot-provider"
+            ],
+            "settings": {
+                "lmstudio-copilot.serverUrl": "http://host.docker.internal:1234"
+            }
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
