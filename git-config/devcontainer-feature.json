@@ -1,0 +1,19 @@
+{
+    "name": "Git Config",
+    "id": "git-config",
+    "version": "1.0.0",
+    "description": "A feature to config git",
+    "options": {
+        "name": {
+            "type": "string",
+            "description": "Set your name"
+        },
+        "email": {
+            "type": "string",
+            "description": "Set your email"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

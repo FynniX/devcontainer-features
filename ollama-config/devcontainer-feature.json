@@ -1,0 +1,16 @@
+{
+    "name": "Ollama Config",
+    "id": "ollama-config",
+    "version": "1.0.0",
+    "description": "A feature to config ollama",
+    "options": {
+        "endpoint": {
+            "type": "string",
+            "description": "Set your endpoint",
+            "default": "http://host.docker.internal:11434"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
