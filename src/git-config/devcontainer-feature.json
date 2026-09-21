@@ -6,11 +6,13 @@
     "options": {
         "name": {
             "type": "string",
-            "description": "Set your name"
+            "description": "Set your name",
+            "default": "Your Name"
         },
         "email": {
             "type": "string",
-            "description": "Set your email"
+            "description": "Set your email",
+            "default": "your.email@example.com"
         }
     },
     "installsAfter": [
