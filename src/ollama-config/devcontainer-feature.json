@@ -3,11 +3,15 @@
     "id": "ollama-config",
     "version": "1.0.1",
     "description": "A feature to config ollama",
-    "options": {
-        "endpoint": {
-            "type": "string",
-            "description": "Set your endpoint",
-            "default": "http://host.docker.internal:11434"
+    "options": {},
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Ollama.ollama"
+            ],
+            "settings": {
+                "ollama.endpoint": "http://host.docker.internal:11434"
+            }
         }
     },
     "installsAfter": [
